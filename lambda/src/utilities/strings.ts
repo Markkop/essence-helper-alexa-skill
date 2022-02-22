@@ -9,7 +9,7 @@ interface IStrings {
 }
 
 export const strings = {
-  [LocaleTypes.ptBR]: {
+  [LocaleTypes.enUS]: {
     translation: {
       LAUNCH: 'Hello. For now I can only give you the effect of an equipment perk. Which one would you like to know?',
       PERK: '{{perkName}} is {{indefiniteArticle} perk with the following effect: {{perkEffect}}',

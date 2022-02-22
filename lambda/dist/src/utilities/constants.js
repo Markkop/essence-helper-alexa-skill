@@ -20,7 +20,7 @@ var IntentTypes;
 })(IntentTypes = exports.IntentTypes || (exports.IntentTypes = {}));
 var LocaleTypes;
 (function (LocaleTypes) {
-    LocaleTypes["ptBR"] = "pt-BR";
+    LocaleTypes["enUS"] = "en-US";
 })(LocaleTypes = exports.LocaleTypes || (exports.LocaleTypes = {}));
 var Strings;
 (function (Strings) {
