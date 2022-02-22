@@ -32,6 +32,7 @@
             }
           ],
           "samples": [
+            "{perk}",
             "the equipment perk {perk}",
             "the effect of the equipment perk {perk}",
             "the effect of the perk {perk}",
