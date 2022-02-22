@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getSlotValues = exports.ResetUnmatchedSlotValues = exports.ResetSlotValue = exports.isIntent = exports.isType = void 0;
+exports.buildResponseWithSpeakOutputAndSimpleCard = exports.getResolvedOrNormalSlotValue = exports.getSlotValues = exports.ResetUnmatchedSlotValues = exports.ResetSlotValue = exports.isIntent = exports.isType = void 0;
 const ask_sdk_core_1 = require("ask-sdk-core");
 const constants_1 = require("./constants");
 function isType(handlerInput, ...types) {
@@ -133,4 +133,19 @@ function getSlotValues(filledSlots) {
     return slotValues;
 }
 exports.getSlotValues = getSlotValues;
+function getResolvedOrNormalSlotValue(handlerInput, slotName) {
+    const requestAttributes = handlerInput.attributesManager.getRequestAttributes();
+    if (!requestAttributes.slots[slotName]) {
+        return undefined;
+    }
+    return requestAttributes.slots[slotName].resolved || requestAttributes.slots[slotName].value;
+}
+exports.getResolvedOrNormalSlotValue = getResolvedOrNormalSlotValue;
+function buildResponseWithSpeakOutputAndSimpleCard(handlerInput, speakOutput, cardTitle) {
+    handlerInput.responseBuilder.withSimpleCard(cardTitle, speakOutput);
+    return handlerInput.responseBuilder
+        .speak(speakOutput)
+        .getResponse();
+}
+exports.buildResponseWithSpeakOutputAndSimpleCard = buildResponseWithSpeakOutputAndSimpleCard;
 //# sourceMappingURL=helpers.js.map

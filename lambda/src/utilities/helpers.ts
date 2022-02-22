@@ -14,7 +14,6 @@ export function isIntent(handlerInput: HandlerInput, ...intents: string[]): bool
   return false;
 }
 
-
 /**
  * Resets the given slot value by setting it to an empty string.
  * If the intent is using the Dialog Directive, this will cause Alexa
@@ -135,4 +134,20 @@ export function getSlotValues(filledSlots?: Slots): SlotValues {
   });
 
   return slotValues;
+}
+
+export function getResolvedOrNormalSlotValue(handlerInput: HandlerInput, slotName: string) {
+  const requestAttributes = handlerInput.attributesManager.getRequestAttributes()
+  if (!requestAttributes.slots[slotName]) {
+    return undefined
+  }
+  return requestAttributes.slots[slotName].resolved || requestAttributes.slots[slotName].value
+}
+
+export function buildResponseWithSpeakOutputAndSimpleCard(handlerInput: HandlerInput, speakOutput: string, cardTitle: string) {
+  handlerInput.responseBuilder.withSimpleCard(cardTitle, speakOutput)
+
+  return handlerInput.responseBuilder
+    .speak(speakOutput)
+    .getResponse();
 }
