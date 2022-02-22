@@ -24,7 +24,7 @@
           "samples": []
         },
         {
-          "name": "getEquipmentPerk",
+          "name": "GetEquipmentPerk",
           "slots": [
             {
               "name": "perk",
@@ -306,7 +306,7 @@
     "dialog": {
       "intents": [
         {
-          "name": "getEquipmentPerk",
+          "name": "GetEquipmentPerk",
           "confirmationRequired": false,
           "prompts": {},
           "slots": [
