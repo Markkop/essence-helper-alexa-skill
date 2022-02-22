@@ -1,0 +1,355 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "essence helper",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "getEquipmentPerk",
+          "slots": [
+            {
+              "name": "perk",
+              "type": "EquipmentPerks"
+            }
+          ],
+          "samples": [
+            "the equipment perk {perk}",
+            "the effect of the equipment perk {perk}",
+            "the effect of the perk {perk}",
+            "the effect of perk {perk}",
+            "the effect of {perk}",
+            "get the equipment perk {perk}",
+            "get the effect of the equipment perk {perk}",
+            "get the effect of the perk {perk}",
+            "get the effect of perk {perk}",
+            "get the effect of {perk}",
+            "tell me the equipment perk {perk}",
+            "tell me the effect of the equipment perk {perk}",
+            "tell me the effect of the perk {perk}",
+            "tell me the effect of perk {perk}",
+            "tell me the effect of {perk}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Banshee\u0027s Bellow"
+              }
+            },
+            {
+              "name": {
+                "value": "Blood Thief"
+              }
+            },
+            {
+              "name": {
+                "value": "Body Meld"
+              }
+            },
+            {
+              "name": {
+                "value": "Brain Freeze"
+              }
+            },
+            {
+              "name": {
+                "value": "Breath Stealer"
+              }
+            },
+            {
+              "name": {
+                "value": "Bunker"
+              }
+            },
+            {
+              "name": {
+                "value": "Chrono Skip"
+              }
+            },
+            {
+              "name": {
+                "value": "Death\u0027s Chariot"
+              }
+            },
+            {
+              "name": {
+                "value": "Deep Breathing"
+              }
+            },
+            {
+              "name": {
+                "value": "Defiant"
+              }
+            },
+            {
+              "name": {
+                "value": "Essence Thief"
+              }
+            },
+            {
+              "name": {
+                "value": "Fighting Spirit"
+              }
+            },
+            {
+              "name": {
+                "value": "Flare"
+              }
+            },
+            {
+              "name": {
+                "value": "Flow State"
+              }
+            },
+            {
+              "name": {
+                "value": "Helping Hand"
+              }
+            },
+            {
+              "name": {
+                "value": "Inner Rage"
+              }
+            },
+            {
+              "name": {
+                "value": "Killer\u0027s Edge"
+              }
+            },
+            {
+              "name": {
+                "value": "Kingmaker"
+              }
+            },
+            {
+              "name": {
+                "value": "Marrow Stealer"
+              }
+            },
+            {
+              "name": {
+                "value": "Mind Meld"
+              }
+            },
+            {
+              "name": {
+                "value": "Pain Link"
+              }
+            },
+            {
+              "name": {
+                "value": "Pit Fighter"
+              }
+            },
+            {
+              "name": {
+                "value": "Scatter"
+              }
+            },
+            {
+              "name": {
+                "value": "Shelter"
+              }
+            },
+            {
+              "name": {
+                "value": "Soul Shock"
+              }
+            },
+            {
+              "name": {
+                "value": "Spirit Meld"
+              }
+            },
+            {
+              "name": {
+                "value": "Super  Heated"
+              }
+            },
+            {
+              "name": {
+                "value": "Thick As Thieves"
+              }
+            },
+            {
+              "name": {
+                "value": "Well Rounded"
+              }
+            },
+            {
+              "name": {
+                "value": "Warlock"
+              }
+            },
+            {
+              "name": {
+                "value": "Brawler"
+              }
+            },
+            {
+              "name": {
+                "value": "Exemplar"
+              }
+            },
+            {
+              "name": {
+                "value": "Mighty"
+              }
+            },
+            {
+              "name": {
+                "value": "Braniac"
+              }
+            },
+            {
+              "name": {
+                "value": "Vanguard"
+              }
+            },
+            {
+              "name": {
+                "value": "Eagle Eye"
+              }
+            },
+            {
+              "name": {
+                "value": "Slayer"
+              }
+            },
+            {
+              "name": {
+                "value": "Sadistic"
+              }
+            },
+            {
+              "name": {
+                "value": "Sprinter"
+              }
+            },
+            {
+              "name": {
+                "value": "Oxygenator"
+              }
+            },
+            {
+              "name": {
+                "value": "Lightfoot"
+              }
+            },
+            {
+              "name": {
+                "value": "Steadfast"
+              }
+            },
+            {
+              "name": {
+                "value": "Automend"
+              }
+            },
+            {
+              "name": {
+                "value": "Essence Flow"
+              }
+            },
+            {
+              "name": {
+                "value": "Shell"
+              }
+            },
+            {
+              "name": {
+                "value": "Robust"
+              }
+            },
+            {
+              "name": {
+                "value": "Assistant"
+              }
+            },
+            {
+              "name": {
+                "value": "Brutal"
+              }
+            },
+            {
+              "name": {
+                "value": "Bastion"
+              }
+            }
+          ],
+          "name": "EquipmentPerks"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "getEquipmentPerk",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "perk",
+              "type": "EquipmentPerks",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1262922622006.814849628544"
+              },
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.1262922622006.814849628544.145984369822"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.1262922622006.814849628544",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Please, tell me the name of the equipment perk you are looking for."
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.1262922622006.814849628544.145984369822",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Sorry, I couldn\u0027t find this perk. Please try again."
+          }
+        ]
+      }
+    ]
+  },
+  "version": "3"
+}

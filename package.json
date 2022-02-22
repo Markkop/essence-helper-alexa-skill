@@ -1,0 +1,20 @@
+{
+  "name": "essence-helper",
+  "version": "1.0.0",
+  "description": "An Alexa Skill that provides information about ZenithVR MMORPG",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test --prefix lambda",
+    "start": "npm run compile --prefix lambda && ask run",
+    "dialog:perk": "ask dialog -r dialog-replays/perk.json",
+    "dialog:launch": "ask dialog -r dialog-replays/launch.json",
+    "push": "git push origin master && git push github master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-personal:Markkop/essence-helper-alexa-skill.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
