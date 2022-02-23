@@ -24,7 +24,8 @@ const GetEquipmentPerkHandler: RequestHandler = {
 
     const indefiniteArticle = getIndefiniteArticleForPerkType(perk.type)
     const perkEffect = perk.effect.replace('by', '')
-    const speakOutput = t(Strings.PERK, { indefiniteArticle, perkName, perkEffect })
+    const perkType = perk.type
+    const speakOutput = t(Strings.PERK, { indefiniteArticle, perkName, perkType, perkEffect })
     return buildResponseWithSpeakOutputAndSimpleCard(handlerInput, speakOutput, perkName)
   },
 };
