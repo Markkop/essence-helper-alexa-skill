@@ -11,7 +11,6 @@ const AboutIntentHandler: RequestHandler = {
     const speechText = t(Strings.HELP);
     handlerInput.responseBuilder.withSimpleCard(t(Strings.SKILL_NAME), speechText)
 
-
     return handlerInput.responseBuilder
       .speak(speechText)
       .reprompt(speechText)
