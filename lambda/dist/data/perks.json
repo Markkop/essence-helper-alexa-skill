@@ -101,7 +101,7 @@
     },
     {
         "name": "Pain Link",
-        "effect": "Reflects damage taken to an enemy\n<p>Possibly instead - On being hit, chance to cause [-50%] reduced movement speed and attack speed in enemies. Possibly an AoE effect.\n</p>",
+        "effect": "Reflects damage taken to an enemy. Possibly instead - On being hit, chance to cause [-50%] reduced movement speed and attack speed in enemies. Possibly an AoE effect.",
         "type": "active"
     },
     {
