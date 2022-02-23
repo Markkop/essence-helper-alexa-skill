@@ -9,7 +9,7 @@ Soon
 # Usage
 
 ```
-"Alexa, open essence mage and tell me the effect of the perk shell"
+"Alexa, open essence helper and tell me the effect of the perk shell"
 ```
 
 # How to develop
@@ -18,7 +18,7 @@ Soon
 ask configure
 ask init --hosted-skill-id amzn1.ask.skill.db94a83e-4fe1-4dcc-87ae-afb9535d8e6e
 cd lambda && npm install && cd ..
-git remote add github git@github.com:Markkop/essence-mage-alexa-skill.git
+git remote add github git@github.com:Markkop/essence-helper-alexa-skill.git
 ```
 
 Compiled folder "dist" have to be commited since this project is a Alexa-hosted skill (which is free) and therefore we have to build the javascript code before sending it to Amazon.
