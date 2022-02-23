@@ -14,6 +14,9 @@ export const LocalizationRequestInterceptor: RequestInterceptor = {
         sprintf.overloadTranslationOptionHandler,
       resources: strings,
       returnObjects: true,
+      interpolation: {
+        escapeValue: false
+      }
     });
   },
 };

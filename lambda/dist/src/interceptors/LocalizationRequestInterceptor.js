@@ -33,6 +33,9 @@ exports.LocalizationRequestInterceptor = {
             overloadTranslationOptionHandler: sprintf.overloadTranslationOptionHandler,
             resources: strings_1.strings,
             returnObjects: true,
+            interpolation: {
+                escapeValue: false
+            }
         });
     },
 };
