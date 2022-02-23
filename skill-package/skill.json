@@ -32,18 +32,18 @@
       "isAvailableWorldwide": true,
       "locales": {
         "en-US": {
-          "description": "Sample Full Description",
+          "description": "An Alexa Skill that provides information about ZenithVR MMORPG",
           "examplePhrases": [
-            "Alexa open hello world",
-            "hello",
-            "help"
+            "Alexa, open Essence Helper and tell me the effect of the perk shell",
+            "Open Essence Helper and provide me the effect of blood thief perk",
+            "Start Essence Helper and get the effect for the perk brain freeze"
           ],
           "keywords": [],
           "name": "Essence Helper",
-          "summary": "Sample Short Description"
+          "summary": "An Alexa Skill that provides information about ZenithVR MMORPG"
         }
       },
-      "testingInstructions": "Sample Testing Instructions."
+      "testingInstructions": "Call alexa with the examplePhrases."
     }
   }
 }
