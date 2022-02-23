@@ -22,7 +22,8 @@ const GetEquipmentPerkHandler = {
         }
         const indefiniteArticle = (0, perks_1.getIndefiniteArticleForPerkType)(perk.type);
         const perkEffect = perk.effect.replace('by', '');
-        const speakOutput = (0, i18next_1.t)(constants_1.Strings.PERK, { indefiniteArticle, perkName, perkEffect });
+        const perkType = perk.type;
+        const speakOutput = (0, i18next_1.t)(constants_1.Strings.PERK, { indefiniteArticle, perkName, perkType, perkEffect });
         return (0, helpers_1.buildResponseWithSpeakOutputAndSimpleCard)(handlerInput, speakOutput, perkName);
     },
 };
