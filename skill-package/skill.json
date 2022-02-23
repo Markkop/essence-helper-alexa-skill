@@ -3,43 +3,173 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "uri": "arn:aws:lambda:us-east-1:784355284770:function:db94a83e-4fe1-4dcc-87ae-afb9535d8e6e:Release_0"
+          "uri": "arn:aws:lambda:us-east-1:784355284770:function:db94a83e-4fe1-4dcc-87ae-afb9535d8e6e:Release_1"
         },
         "interfaces": [],
         "regions": {
-          "NA": {
-            "endpoint": {
-              "uri": "arn:aws:lambda:us-east-1:784355284770:function:db94a83e-4fe1-4dcc-87ae-afb9535d8e6e:Release_0"
-            }
-          },
           "EU": {
             "endpoint": {
-              "uri": "arn:aws:lambda:eu-west-1:784355284770:function:db94a83e-4fe1-4dcc-87ae-afb9535d8e6e:Release_0"
+              "uri": "arn:aws:lambda:eu-west-1:784355284770:function:db94a83e-4fe1-4dcc-87ae-afb9535d8e6e:Release_1"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:784355284770:function:db94a83e-4fe1-4dcc-87ae-afb9535d8e6e:Release_1"
             }
           },
           "FE": {
             "endpoint": {
-              "uri": "arn:aws:lambda:us-west-2:784355284770:function:db94a83e-4fe1-4dcc-87ae-afb9535d8e6e:Release_0"
+              "uri": "arn:aws:lambda:us-west-2:784355284770:function:db94a83e-4fe1-4dcc-87ae-afb9535d8e6e:Release_1"
             }
           }
         }
       }
     },
     "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "containsAds": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "locales": {
+        "en-US": {},
+        "en-CA": {},
+        "en-IN": {},
+        "en-AU": {},
+        "en-GB": {}
+      },
+      "usesPersonalInfo": false
+    },
     "publishingInformation": {
+      "automaticClonedLocale": {
+        "locales": [
+          {
+            "source": "en-US",
+            "targets": [
+              "en-AU",
+              "en-CA",
+              "en-GB",
+              "en-IN"
+            ]
+          }
+        ]
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
       "category": "KNOWLEDGE_AND_TRIVIA",
       "distributionCountries": [],
+      "distributionMode": "PUBLIC",
       "isAvailableWorldwide": true,
       "locales": {
         "en-US": {
           "description": "An Alexa Skill that provides information about ZenithVR MMORPG",
           "examplePhrases": [
             "Alexa, open Essence Helper and tell me the effect of the perk shell",
-            "Open Essence Helper and provide me the effect of blood thief perk",
-            "Start Essence Helper and get the effect for the perk brain freeze"
+            "Alexa, open Essence Helper and provide me the effect of blood thief perk",
+            "Alexa, open Essence Helper and get the effect of the perk brain freeze"
           ],
-          "keywords": [],
+          "keywords": [
+            "zenith",
+            "mmorpg",
+            "vr",
+            "virtual",
+            "reality",
+            "game",
+            "perk",
+            "equipment"
+          ],
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/59bc/3af3ff48564c478faa54bf03477a1f3a/APP_ICON_LARGE?versionId=vUf13eSxq0ZoOU_lyvi0d8ucyTmWm1uq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d4ea05989493bedc6b57fa7f82164ec0834319287be4afba1fad9500306cc301",
           "name": "Essence Helper",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1abd/28c803364d3c494b984937aeeae355fe/APP_ICON?versionId=R7m_77QBOdpFGi_Rzy3kteK8TTEXlNQX&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=877be0b568a9b9a651baba2faf7bdd599cef47f5059dfb9d5bfe7aab000b0335",
+          "summary": "An Alexa Skill that provides information about ZenithVR MMORPG"
+        },
+        "en-CA": {
+          "description": "An Alexa Skill that provides information about ZenithVR MMORPG",
+          "examplePhrases": [
+            "Alexa, open Essence Helper and tell me the effect of the perk shell",
+            "Alexa, open Essence Helper and provide me the effect of blood thief perk",
+            "Alexa, open Essence Helper and get the effect of the perk brain freeze"
+          ],
+          "keywords": [
+            "zenith",
+            "mmorpg",
+            "vr",
+            "virtual",
+            "reality",
+            "game",
+            "perk",
+            "equipment"
+          ],
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/59bc/3af3ff48564c478faa54bf03477a1f3a/APP_ICON_LARGE?versionId=vUf13eSxq0ZoOU_lyvi0d8ucyTmWm1uq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d4ea05989493bedc6b57fa7f82164ec0834319287be4afba1fad9500306cc301",
+          "name": "Essence Helper",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1abd/28c803364d3c494b984937aeeae355fe/APP_ICON?versionId=R7m_77QBOdpFGi_Rzy3kteK8TTEXlNQX&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d5c0ad01b3b836ba52ae4c6a26d97c6f6215f2b37ff22cf28dd16e40b42c31b4",
+          "summary": "An Alexa Skill that provides information about ZenithVR MMORPG"
+        },
+        "en-IN": {
+          "description": "An Alexa Skill that provides information about ZenithVR MMORPG",
+          "examplePhrases": [
+            "Alexa, open Essence Helper and tell me the effect of the perk shell",
+            "Alexa, open Essence Helper and provide me the effect of blood thief perk",
+            "Alexa, open Essence Helper and get the effect of the perk brain freeze"
+          ],
+          "keywords": [
+            "zenith",
+            "mmorpg",
+            "vr",
+            "virtual",
+            "reality",
+            "game",
+            "perk",
+            "equipment"
+          ],
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/59bc/3af3ff48564c478faa54bf03477a1f3a/APP_ICON_LARGE?versionId=vUf13eSxq0ZoOU_lyvi0d8ucyTmWm1uq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d4ea05989493bedc6b57fa7f82164ec0834319287be4afba1fad9500306cc301",
+          "name": "Essence Helper",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1abd/28c803364d3c494b984937aeeae355fe/APP_ICON?versionId=R7m_77QBOdpFGi_Rzy3kteK8TTEXlNQX&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=877be0b568a9b9a651baba2faf7bdd599cef47f5059dfb9d5bfe7aab000b0335",
+          "summary": "An Alexa Skill that provides information about ZenithVR MMORPG"
+        },
+        "en-AU": {
+          "description": "An Alexa Skill that provides information about ZenithVR MMORPG",
+          "examplePhrases": [
+            "Alexa, open Essence Helper and tell me the effect of the perk shell",
+            "Alexa, open Essence Helper and provide me the effect of blood thief perk",
+            "Alexa, open Essence Helper and get the effect of the perk brain freeze"
+          ],
+          "keywords": [
+            "zenith",
+            "mmorpg",
+            "vr",
+            "virtual",
+            "reality",
+            "game",
+            "perk",
+            "equipment"
+          ],
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/59bc/3af3ff48564c478faa54bf03477a1f3a/APP_ICON_LARGE?versionId=vUf13eSxq0ZoOU_lyvi0d8ucyTmWm1uq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d4ea05989493bedc6b57fa7f82164ec0834319287be4afba1fad9500306cc301",
+          "name": "Essence Helper",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1abd/28c803364d3c494b984937aeeae355fe/APP_ICON?versionId=R7m_77QBOdpFGi_Rzy3kteK8TTEXlNQX&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=877be0b568a9b9a651baba2faf7bdd599cef47f5059dfb9d5bfe7aab000b0335",
+          "summary": "An Alexa Skill that provides information about ZenithVR MMORPG"
+        },
+        "en-GB": {
+          "description": "An Alexa Skill that provides information about ZenithVR MMORPG",
+          "examplePhrases": [
+            "Alexa, open Essence Helper and tell me the effect of the perk shell",
+            "Alexa, open Essence Helper and provide me the effect of blood thief perk",
+            "Alexa, open Essence Helper and get the effect of the perk brain freeze"
+          ],
+          "keywords": [
+            "zenith",
+            "mmorpg",
+            "vr",
+            "virtual",
+            "reality",
+            "game",
+            "perk",
+            "equipment"
+          ],
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/59bc/3af3ff48564c478faa54bf03477a1f3a/APP_ICON_LARGE?versionId=vUf13eSxq0ZoOU_lyvi0d8ucyTmWm1uq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142220Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=75e6cacdeffd42fbf6388739e6f70830723726943bb5d17748eacc6c021031a5",
+          "name": "Essence Helper",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1abd/28c803364d3c494b984937aeeae355fe/APP_ICON?versionId=R7m_77QBOdpFGi_Rzy3kteK8TTEXlNQX&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142220Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6a587de5b4711e4396c8c7f37bb5153191847a043741a2157b694c0f21e2c106",
           "summary": "An Alexa Skill that provides information about ZenithVR MMORPG"
         }
       },
