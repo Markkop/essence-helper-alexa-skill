@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run test --prefix lambda",
-    "start": "npm run compile --prefix lambda && ask run",
+    "compile": "npm run compile --prefix lambda",
+    "start": "npm run compile && ask run",
     "dialog:perk": "ask dialog -r dialog-replays/perk.json",
     "dialog:launch": "ask dialog -r dialog-replays/launch.json",
     "push": "git push origin master && git push github master"
