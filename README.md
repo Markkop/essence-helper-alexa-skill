@@ -1,15 +1,18 @@
-# 🔮 Essence Helper
+# 🥽 Essence Helper
 
 This Amazon Alexa Skill provides information about ZenithVR MMORPG
 
 # Get the Skill
 
-Soon
+https://www.amazon.com/dp/B09T6XJ3NT
 
 # Usage
 
 ```
+"Alexa, open essence helper"
 "Alexa, open essence helper and tell me the effect of the perk shell"
+"Alexa, open Essence Helper and provide me the effect of blood thief"
+"Alexa, open Essence Helper and get the effect of the perk brain freeze"
 ```
 
 # How to develop
