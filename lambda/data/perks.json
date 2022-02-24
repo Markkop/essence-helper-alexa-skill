@@ -1,7 +1,7 @@
 [
   {
     "name": "Banshee's Bellow",
-    "effect": "",
+    "effect": "When struck cause [150% AP stagger] in a [5m AoE]. (15s CD)",
     "type": "active"
   },
   {
@@ -61,7 +61,7 @@
   },
   {
     "name": "Flare",
-    "effect": "",
+    "effect": "Attacks cause a [50% AP Damage] explosion in a [4m AoE]. (20s CD)",
     "type": "active"
   },
   {
@@ -269,10 +269,10 @@
   },
   {
     "name": "Shell",
-    "effect": "Increases Armor",
-    "tier1": "",
-    "tier2": "",
-    "tier3": "",
+    "effect": "Increases armor based on tier.",
+    "tier1": "100",
+    "tier2": "200",
+    "tier3": "300",
     "type": "passive"
   },
   {
