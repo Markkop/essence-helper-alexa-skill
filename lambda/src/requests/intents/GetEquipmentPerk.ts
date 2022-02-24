@@ -25,7 +25,9 @@ const GetEquipmentPerkHandler: RequestHandler = {
     const indefiniteArticle = getIndefiniteArticleForPerkType(perk.type)
     const perkEffect = perk.effect.replace('by', '')
     const perkType = perk.type
-    const speakOutput = t(Strings.PERK, { indefiniteArticle, perkName, perkType, perkEffect })
+    const accordingToSource = t(Strings.ACCORDING_TO_SOURCE, { source: 'ZenithMMO Fandom Wiki' })
+    const effectSpeakOutput = t(Strings.PERK, { indefiniteArticle, perkName, perkType, perkEffect })
+    const speakOutput = `${accordingToSource}, ${effectSpeakOutput}`
     return buildResponseWithSpeakOutputAndSimpleCard(handlerInput, speakOutput, perkName)
   },
 };

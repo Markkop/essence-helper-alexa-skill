@@ -34,5 +34,6 @@ var Strings;
     Strings["PERK"] = "PERK";
     Strings["UNKNOWN_PERK_EFFECT"] = "UNKNOWN_PERK_EFFECT";
     Strings["PERK_NOT_FOUND"] = "PERK_NOT_FOUND";
+    Strings["ACCORDING_TO_SOURCE"] = "ACCORDING_TO_SOURCE";
 })(Strings = exports.Strings || (exports.Strings = {}));
 //# sourceMappingURL=constants.js.map
