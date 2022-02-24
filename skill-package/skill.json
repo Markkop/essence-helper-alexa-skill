@@ -3,23 +3,23 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "uri": "arn:aws:lambda:us-east-1:784355284770:function:db94a83e-4fe1-4dcc-87ae-afb9535d8e6e:Release_1"
+          "uri": "arn:aws:lambda:us-east-1:784355284770:function:db94a83e-4fe1-4dcc-87ae-afb9535d8e6e:Release_2"
         },
         "interfaces": [],
         "regions": {
           "EU": {
             "endpoint": {
-              "uri": "arn:aws:lambda:eu-west-1:784355284770:function:db94a83e-4fe1-4dcc-87ae-afb9535d8e6e:Release_1"
+              "uri": "arn:aws:lambda:eu-west-1:784355284770:function:db94a83e-4fe1-4dcc-87ae-afb9535d8e6e:Release_2"
             }
           },
           "NA": {
             "endpoint": {
-              "uri": "arn:aws:lambda:us-east-1:784355284770:function:db94a83e-4fe1-4dcc-87ae-afb9535d8e6e:Release_1"
+              "uri": "arn:aws:lambda:us-east-1:784355284770:function:db94a83e-4fe1-4dcc-87ae-afb9535d8e6e:Release_2"
             }
           },
           "FE": {
             "endpoint": {
-              "uri": "arn:aws:lambda:us-west-2:784355284770:function:db94a83e-4fe1-4dcc-87ae-afb9535d8e6e:Release_1"
+              "uri": "arn:aws:lambda:us-west-2:784355284770:function:db94a83e-4fe1-4dcc-87ae-afb9535d8e6e:Release_2"
             }
           }
         }
@@ -79,9 +79,9 @@
             "perk",
             "equipment"
           ],
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/59bc/3af3ff48564c478faa54bf03477a1f3a/APP_ICON_LARGE?versionId=vUf13eSxq0ZoOU_lyvi0d8ucyTmWm1uq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d4ea05989493bedc6b57fa7f82164ec0834319287be4afba1fad9500306cc301",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/59bc/3af3ff48564c478faa54bf03477a1f3a/APP_ICON_LARGE?versionId=vUf13eSxq0ZoOU_lyvi0d8ucyTmWm1uq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220224T130119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5a5c3240cc44d046d7c831a2de7364cf52c71ec89d3d32ce9b8a551c6c695c37",
           "name": "Essence Helper",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1abd/28c803364d3c494b984937aeeae355fe/APP_ICON?versionId=R7m_77QBOdpFGi_Rzy3kteK8TTEXlNQX&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=877be0b568a9b9a651baba2faf7bdd599cef47f5059dfb9d5bfe7aab000b0335",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1abd/28c803364d3c494b984937aeeae355fe/APP_ICON?versionId=R7m_77QBOdpFGi_Rzy3kteK8TTEXlNQX&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220224T130119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5da605480d9ac0627d53754cb59fa16d7f53cf65dbffc7606385c43f8084ca23",
           "summary": "An Alexa Skill that provides information about ZenithVR MMORPG"
         },
         "en-CA": {
@@ -101,9 +101,9 @@
             "perk",
             "equipment"
           ],
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/59bc/3af3ff48564c478faa54bf03477a1f3a/APP_ICON_LARGE?versionId=vUf13eSxq0ZoOU_lyvi0d8ucyTmWm1uq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d4ea05989493bedc6b57fa7f82164ec0834319287be4afba1fad9500306cc301",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/59bc/3af3ff48564c478faa54bf03477a1f3a/APP_ICON_LARGE?versionId=vUf13eSxq0ZoOU_lyvi0d8ucyTmWm1uq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220224T130119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5a5c3240cc44d046d7c831a2de7364cf52c71ec89d3d32ce9b8a551c6c695c37",
           "name": "Essence Helper",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1abd/28c803364d3c494b984937aeeae355fe/APP_ICON?versionId=R7m_77QBOdpFGi_Rzy3kteK8TTEXlNQX&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d5c0ad01b3b836ba52ae4c6a26d97c6f6215f2b37ff22cf28dd16e40b42c31b4",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1abd/28c803364d3c494b984937aeeae355fe/APP_ICON?versionId=R7m_77QBOdpFGi_Rzy3kteK8TTEXlNQX&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220224T130119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5da605480d9ac0627d53754cb59fa16d7f53cf65dbffc7606385c43f8084ca23",
           "summary": "An Alexa Skill that provides information about ZenithVR MMORPG"
         },
         "en-IN": {
@@ -123,9 +123,9 @@
             "perk",
             "equipment"
           ],
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/59bc/3af3ff48564c478faa54bf03477a1f3a/APP_ICON_LARGE?versionId=vUf13eSxq0ZoOU_lyvi0d8ucyTmWm1uq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d4ea05989493bedc6b57fa7f82164ec0834319287be4afba1fad9500306cc301",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/59bc/3af3ff48564c478faa54bf03477a1f3a/APP_ICON_LARGE?versionId=vUf13eSxq0ZoOU_lyvi0d8ucyTmWm1uq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220224T130119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5a5c3240cc44d046d7c831a2de7364cf52c71ec89d3d32ce9b8a551c6c695c37",
           "name": "Essence Helper",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1abd/28c803364d3c494b984937aeeae355fe/APP_ICON?versionId=R7m_77QBOdpFGi_Rzy3kteK8TTEXlNQX&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=877be0b568a9b9a651baba2faf7bdd599cef47f5059dfb9d5bfe7aab000b0335",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1abd/28c803364d3c494b984937aeeae355fe/APP_ICON?versionId=R7m_77QBOdpFGi_Rzy3kteK8TTEXlNQX&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220224T130119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5da605480d9ac0627d53754cb59fa16d7f53cf65dbffc7606385c43f8084ca23",
           "summary": "An Alexa Skill that provides information about ZenithVR MMORPG"
         },
         "en-AU": {
@@ -145,9 +145,9 @@
             "perk",
             "equipment"
           ],
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/59bc/3af3ff48564c478faa54bf03477a1f3a/APP_ICON_LARGE?versionId=vUf13eSxq0ZoOU_lyvi0d8ucyTmWm1uq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d4ea05989493bedc6b57fa7f82164ec0834319287be4afba1fad9500306cc301",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/59bc/3af3ff48564c478faa54bf03477a1f3a/APP_ICON_LARGE?versionId=vUf13eSxq0ZoOU_lyvi0d8ucyTmWm1uq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220224T130119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5a5c3240cc44d046d7c831a2de7364cf52c71ec89d3d32ce9b8a551c6c695c37",
           "name": "Essence Helper",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1abd/28c803364d3c494b984937aeeae355fe/APP_ICON?versionId=R7m_77QBOdpFGi_Rzy3kteK8TTEXlNQX&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142219Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=877be0b568a9b9a651baba2faf7bdd599cef47f5059dfb9d5bfe7aab000b0335",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1abd/28c803364d3c494b984937aeeae355fe/APP_ICON?versionId=R7m_77QBOdpFGi_Rzy3kteK8TTEXlNQX&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220224T130119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5da605480d9ac0627d53754cb59fa16d7f53cf65dbffc7606385c43f8084ca23",
           "summary": "An Alexa Skill that provides information about ZenithVR MMORPG"
         },
         "en-GB": {
@@ -167,13 +167,13 @@
             "perk",
             "equipment"
           ],
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/59bc/3af3ff48564c478faa54bf03477a1f3a/APP_ICON_LARGE?versionId=vUf13eSxq0ZoOU_lyvi0d8ucyTmWm1uq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142220Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=75e6cacdeffd42fbf6388739e6f70830723726943bb5d17748eacc6c021031a5",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/59bc/3af3ff48564c478faa54bf03477a1f3a/APP_ICON_LARGE?versionId=vUf13eSxq0ZoOU_lyvi0d8ucyTmWm1uq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220224T130119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5a5c3240cc44d046d7c831a2de7364cf52c71ec89d3d32ce9b8a551c6c695c37",
           "name": "Essence Helper",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1abd/28c803364d3c494b984937aeeae355fe/APP_ICON?versionId=R7m_77QBOdpFGi_Rzy3kteK8TTEXlNQX&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220223T142220Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6a587de5b4711e4396c8c7f37bb5153191847a043741a2157b694c0f21e2c106",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1abd/28c803364d3c494b984937aeeae355fe/APP_ICON?versionId=R7m_77QBOdpFGi_Rzy3kteK8TTEXlNQX&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220224T130119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAWBV6LQ4QPV37D3RK%2F20220224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5da605480d9ac0627d53754cb59fa16d7f53cf65dbffc7606385c43f8084ca23",
           "summary": "An Alexa Skill that provides information about ZenithVR MMORPG"
         }
       },
-      "testingInstructions": "Call alexa with the examplePhrases."
+      "testingInstructions": "Call alexa with the examplePhrases. (Note: in the previous submission, I've mistakenly marked the \"Is this skill directed to or does it target children under the age of 13?\"  as \"Yes\", which should be \"No\")"
     }
   }
 }
