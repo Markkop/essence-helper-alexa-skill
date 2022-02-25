@@ -7,7 +7,7 @@ exports.strings = {
         translation: {
             LAUNCH: 'Hello Zenithian. For now I can only give you the effect of an equipment perk. Which one would you like to know?',
             PERK: '{{perkName}} is {{indefiniteArticle}} {{perkType}} perk with the following effect: {{perkEffect}}',
-            ITEM: '{{sourceText}}',
+            SOURCE: '{{sourceText}}',
             UNKNOWN_PERK_EFFECT: 'The effect for this perk is currently unknown.',
             UNKNOWN_SOURCE: 'The location for this item is currently unknown.',
             ACCORDING_TO_SOURCE: 'According to {{source}}',
