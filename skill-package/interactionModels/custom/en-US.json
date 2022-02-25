@@ -32,7 +32,6 @@
             }
           ],
           "samples": [
-            "{perk}",
             "equipment",
             "perk",
             "perks",
@@ -93,7 +92,6 @@
             "cooking",
             "source",
             "sources",
-            "{item}",
             "what is the location of {item}",
             "the location of the item {item}",
             "the location of item {item}",
@@ -642,5 +640,5 @@
       }
     ]
   },
-  "version": "24"
+  "version": "25"
 }
