@@ -124,19 +124,6 @@
             "tell me the location of {item}",
             "tell me the location of the {item}",
             "tell me the location of {item} item",
-            "tell the item {item}",
-            "tell the item {item} location",
-            "tell the {item} location",
-            "tell where the {item} is located",
-            "tell where {item} is located",
-            "tell where {item} are located",
-            "tell where I can find {item}",
-            "tell {item} location",
-            "tell the location of the item {item}",
-            "tell the location of item {item}",
-            "tell the location of {item}",
-            "tell the location of the {item}",
-            "tell the location of {item} item",
             "provide me the item {item}",
             "provide me the item {item} location",
             "provide me the {item} location",
@@ -408,52 +395,83 @@
           "values": [
             {
               "name": {
-                "value": "Apple"
+                "value": "Apple",
+                "synonyms": [
+                  "apples"
+                ]
               }
             },
             {
               "name": {
-                "value": "Basic Noodles"
+                "value": "Basic Noodles",
+                "synonyms": [
+                  "basic noodle",
+                  "noodle"
+                ]
               }
             },
             {
               "name": {
-                "value": "Basil"
+                "value": "Basil",
+                "synonyms": [
+                  "basils"
+                ]
               }
             },
             {
               "name": {
-                "value": "Blood Orange"
+                "value": "Blood Orange",
+                "synonyms": [
+                  "blood oranges"
+                ]
               }
             },
             {
               "name": {
-                "value": "Carrot"
+                "value": "Carrot",
+                "synonyms": [
+                  "carrots"
+                ]
               }
             },
             {
               "name": {
-                "value": "Cilantro"
+                "value": "Cilantro",
+                "synonyms": [
+                  "cilantros"
+                ]
               }
             },
             {
               "name": {
-                "value": "Dragon fruit"
+                "value": "Dragon fruit",
+                "synonyms": [
+                  "dragon fruits"
+                ]
               }
             },
             {
               "name": {
-                "value": "Durian"
+                "value": "Durian",
+                "synonyms": [
+                  "durians"
+                ]
               }
             },
             {
               "name": {
-                "value": "Flour"
+                "value": "Flour",
+                "synonyms": [
+                  "flours"
+                ]
               }
             },
             {
               "name": {
-                "value": "Lemon"
+                "value": "Lemon",
+                "synonyms": [
+                  "lemons"
+                ]
               }
             },
             {
@@ -463,42 +481,67 @@
             },
             {
               "name": {
-                "value": "Orange"
+                "value": "Orange",
+                "synonyms": [
+                  "oranges"
+                ]
               }
             },
             {
               "name": {
-                "value": "Papaya"
+                "value": "Papaya",
+                "synonyms": [
+                  "papayas"
+                ]
               }
             },
             {
               "name": {
-                "value": "Peach"
+                "value": "Peach",
+                "synonyms": [
+                  "peaches"
+                ]
               }
             },
             {
               "name": {
-                "value": "Pineapple"
+                "value": "Pineapple",
+                "synonyms": [
+                  "pineapples"
+                ]
               }
             },
             {
               "name": {
-                "value": "Pomegranate"
+                "value": "Pomegranate",
+                "synonyms": [
+                  "Pomegranates"
+                ]
               }
             },
             {
               "name": {
-                "value": "Purple Mushroom"
+                "value": "Purple Mushroom",
+                "synonyms": [
+                  "mushroom",
+                  "purple mushrooms"
+                ]
               }
             },
             {
               "name": {
-                "value": "Rare Mushroom"
+                "value": "Rare Mushroom",
+                "synonyms": [
+                  "rare mushrooms"
+                ]
               }
             },
             {
               "name": {
-                "value": "Rosemary"
+                "value": "Rosemary",
+                "synonyms": [
+                  "rosemaries"
+                ]
               }
             },
             {
@@ -584,5 +627,5 @@
       }
     ]
   },
-  "version": "15"
+  "version": "19"
 }
