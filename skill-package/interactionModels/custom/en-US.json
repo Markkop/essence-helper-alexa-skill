@@ -33,6 +33,8 @@
           ],
           "samples": [
             "equipment",
+            "equipment perk",
+            "equipment perks",
             "perk",
             "perks",
             "effect",
@@ -85,6 +87,8 @@
           "samples": [
             "location",
             "locations",
+            "cooking ingredient",
+            "cooking ingredients",
             "item",
             "items",
             "ingredient",
@@ -564,6 +568,35 @@
             }
           ],
           "name": "LocationItems"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "location",
+                "synonyms": [
+                  "locations",
+                  "source",
+                  "ingredient",
+                  "item",
+                  "food"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "perk",
+                "synonyms": [
+                  "perks",
+                  "ability",
+                  "equipment perk",
+                  "equipment",
+                  "effect"
+                ]
+              }
+            }
+          ],
+          "name": "Intent"
         }
       ]
     },
@@ -589,7 +622,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "delegationStrategy": "ALWAYS"
         },
         {
           "name": "GetSourceIntent",
@@ -603,9 +637,16 @@
               "confirmationRequired": false,
               "prompts": {
                 "elicitation": "Elicit.Slot.1221595587524.92095284155"
-              }
+              },
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.1161537021745.378159414893.739760953093"
+                }
+              ]
             }
-          ]
+          ],
+          "delegationStrategy": "ALWAYS"
         }
       ],
       "delegationStrategy": "ALWAYS"
@@ -637,8 +678,17 @@
             "value": "Please, tell me which item you would like the location. For now I only know about cooking ingredients."
           }
         ]
+      },
+      {
+        "id": "Slot.Validation.1161537021745.378159414893.739760953093",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Sorry, I didn't understand or I don't know the location for this item. Please try again."
+          }
+        ]
       }
     ]
   },
-  "version": "25"
+  "version": "31"
 }
