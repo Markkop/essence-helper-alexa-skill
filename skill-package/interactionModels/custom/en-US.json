@@ -33,6 +33,11 @@
           ],
           "samples": [
             "{perk}",
+            "equipment",
+            "perk",
+            "perks",
+            "effect",
+            "effects",
             "the equipment perk {perk}",
             "the effect of the equipment perk {perk}",
             "the effect of the perk {perk}",
@@ -79,6 +84,16 @@
             }
           ],
           "samples": [
+            "location",
+            "locations",
+            "item",
+            "items",
+            "ingredient",
+            "ingredients",
+            "cooking",
+            "source",
+            "sources",
+            "{item}",
             "what is the location of {item}",
             "the location of the item {item}",
             "the location of item {item}",
@@ -627,5 +642,5 @@
       }
     ]
   },
-  "version": "19"
+  "version": "21"
 }
