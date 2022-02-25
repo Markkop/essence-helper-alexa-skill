@@ -16,8 +16,9 @@ const Fallback_1 = __importDefault(require("./requests/intents/Fallback"));
 const Stop_1 = __importDefault(require("./requests/intents/Stop"));
 const Cancel_1 = __importDefault(require("./requests/intents/Cancel"));
 const GetEquipmentPerk_1 = __importDefault(require("./requests/intents/GetEquipmentPerk"));
+const GetSource_1 = __importDefault(require("./requests/intents/GetSource"));
 exports.handler = ask_sdk_core_1.SkillBuilders.custom()
-    .addRequestHandlers(Launch_1.default, Help_1.default, Stop_1.default, Fallback_1.default, Cancel_1.default, SessionEnded_1.default, ExceptionEncounter_1.default, GetEquipmentPerk_1.default)
+    .addRequestHandlers(Launch_1.default, Help_1.default, Stop_1.default, Fallback_1.default, Cancel_1.default, SessionEnded_1.default, ExceptionEncounter_1.default, GetEquipmentPerk_1.default, GetSource_1.default)
     .addErrorHandlers(ErrorProcessor_1.default)
     .addRequestInterceptors(LocalizationRequestInterceptor_1.LocalizationRequestInterceptor, Slots_1.SlotsInterceptor)
     .lambda();

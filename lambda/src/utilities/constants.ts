@@ -13,6 +13,7 @@ export enum IntentTypes {
   About = 'AboutIntent',
   UnavailableIntent = 'UnavailableIntent',
   GetEquipmentPerk = 'GetEquipmentPerkIntent',
+  GetSource = 'GetSourceIntent',
 }
 
 export enum LocaleTypes {
@@ -28,7 +29,10 @@ export enum Strings {
   UNAVAILABLE_INTENT = 'UNAVAILABLE_INTENT',
   SKILL_NAME = 'SKILL_NAME',
   PERK = 'PERK',
+  SOURCE = 'SOURCE',
   UNKNOWN_PERK_EFFECT = 'UNKNOWN_PERK_EFFECT',
+  UNKNOWN_SOURCE = 'UNKNOWN_SOURCE',
   PERK_NOT_FOUND = 'PERK_NOT_FOUND',
+  ITEM_NOT_FOUND = 'ITEM_NOT_FOUND',
   ACCORDING_TO_SOURCE = 'ACCORDING_TO_SOURCE',
 }

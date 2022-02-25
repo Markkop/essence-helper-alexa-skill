@@ -10,6 +10,7 @@ import FallbackIntentHandler from './requests/intents/Fallback';
 import StopIntentHandler from './requests/intents/Stop';
 import CancelIntentHandler from './requests/intents/Cancel';
 import GetEquipmentPerk from './requests/intents/GetEquipmentPerk';
+import GetSource from './requests/intents/GetSource';
 
 export const handler = SkillBuilders.custom()
   .addRequestHandlers(
@@ -21,6 +22,7 @@ export const handler = SkillBuilders.custom()
     SessionEndedIntentHandler,
     ExceptionEncounteredIntentHandler,
     GetEquipmentPerk,
+    GetSource,
   )
   .addErrorHandlers(ErrorProcessor)
   .addRequestInterceptors(

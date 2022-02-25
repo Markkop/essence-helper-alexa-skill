@@ -34,76 +34,52 @@
           "samples": [
             "{perk}",
             "the equipment perk {perk}",
-            "the perk {perk}",
-
             "the effect of the equipment perk {perk}",
-            "the effect for the equipment perk {perk}",
             "the effect of the perk {perk}",
-            "the effect for the perk {perk}",
             "the effect of perk {perk}",
-            "the effect for perk {perk}",
             "the effect of {perk}",
-            "the effect for {perk}",
             "the effect of the {perk}",
-            "the effect for the {perk}",
             "the effect of {perk} perk",
-            "the effect for {perk} perk",
-
             "get the equipment perk {perk}",
             "get the effect of the equipment perk {perk}",
-            "get the effect for the equipment perk {perk}",
             "get the effect of the perk {perk}",
-            "get the effect for the perk {perk}",
             "get the effect of perk {perk}",
-            "get the effect for perk {perk}",
             "get the effect of {perk}",
-            "get the effect for {perk}",
             "get the effect of the {perk}",
-            "get the effect for the {perk}",
             "get the effect of {perk} perk",
-            "get the effect for {perk} perk",
-
             "give me the equipment perk {perk}",
             "give me the effect of the equipment perk {perk}",
-            "give me the effect for the equipment perk {perk}",
             "give me the effect of the perk {perk}",
-            "give me the effect for the perk {perk}",
             "give me the effect of perk {perk}",
-            "give me the effect for perk {perk}",
             "give me the effect of {perk}",
-            "give me the effect for {perk}",
             "give me the effect of the {perk}",
-            "give me the effect for the {perk}",
             "give me the effect of {perk} perk",
-            "give me the effect for {perk} perk",
-
             "tell me the equipment perk {perk}",
             "tell me the effect of the equipment perk {perk}",
-            "tell me the effect for the equipment perk {perk}",
             "tell me the effect of the perk {perk}",
-            "tell me the effect for the perk {perk}",
             "tell me the effect of perk {perk}",
-            "tell me the effect for perk {perk}",
             "tell me the effect of {perk}",
-            "tell me the effect for {perk}",
             "tell me the effect of the {perk}",
-            "tell me the effect for the {perk}",
             "tell me the effect of {perk} perk",
-            "tell me the effect for {perk} perk",
-            
             "provide me the equipment perk {perk}",
             "provide me the effect of the equipment perk {perk}",
-            "provide me the effect for the equipment perk {perk}",
             "provide me the effect of the perk {perk}",
-            "provide me the effect for the perk {perk}",
             "provide me the effect of perk {perk}",
-            "provide me the effect for perk {perk}",
             "provide me the effect of {perk}",
-            "provide me the effect for {perk}",
             "provide me the effect of the {perk}",
-            "provide me the effect for the {perk}",
-            "provide me the effect of {perk} perk",
-            "provide me the effect for {perk} perk"
+            "provide me the effect of {perk} perk"
+          ]
+        },
+        {
+          "name": "GetSource",
+          "slots": [
+            {
+              "name": "item",
+              "type": "LocationItems"
+            }
+          ],
+          "samples": [
+            "what is the location of {item}"
           ]
         }
       ],
@@ -112,7 +88,7 @@
           "values": [
             {
               "name": {
-                "value": "Banshee\u0027s Bellow"
+                "value": "Banshee's Bellow"
               }
             },
             {
@@ -147,7 +123,7 @@
             },
             {
               "name": {
-                "value": "Death\u0027s Chariot"
+                "value": "Death's Chariot"
               }
             },
             {
@@ -192,7 +168,7 @@
             },
             {
               "name": {
-                "value": "Killer\u0027s Edge"
+                "value": "Killer's Edge"
               }
             },
             {
@@ -357,6 +333,111 @@
             }
           ],
           "name": "EquipmentPerks"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Apple"
+              }
+            },
+            {
+              "name": {
+                "value": "Basic Noodles"
+              }
+            },
+            {
+              "name": {
+                "value": "Basil"
+              }
+            },
+            {
+              "name": {
+                "value": "Blood Orange"
+              }
+            },
+            {
+              "name": {
+                "value": "Carrot"
+              }
+            },
+            {
+              "name": {
+                "value": "Cilantro"
+              }
+            },
+            {
+              "name": {
+                "value": "Dragon fruit"
+              }
+            },
+            {
+              "name": {
+                "value": "Durian"
+              }
+            },
+            {
+              "name": {
+                "value": "Flour"
+              }
+            },
+            {
+              "name": {
+                "value": "Lemon"
+              }
+            },
+            {
+              "name": {
+                "value": "Milk"
+              }
+            },
+            {
+              "name": {
+                "value": "Orange"
+              }
+            },
+            {
+              "name": {
+                "value": "Papaya"
+              }
+            },
+            {
+              "name": {
+                "value": "Peach"
+              }
+            },
+            {
+              "name": {
+                "value": "Pineapple"
+              }
+            },
+            {
+              "name": {
+                "value": "Pomegranate"
+              }
+            },
+            {
+              "name": {
+                "value": "Purple Mushroom"
+              }
+            },
+            {
+              "name": {
+                "value": "Rare Mushroom"
+              }
+            },
+            {
+              "name": {
+                "value": "Rosemary"
+              }
+            },
+            {
+              "name": {
+                "value": "Sugar"
+              }
+            }
+          ],
+          "name": "LocationItems"
         }
       ]
     },
@@ -402,7 +483,7 @@
         "variations": [
           {
             "type": "PlainText",
-            "value": "Sorry, I couldn\u0027t find this perk. Please try again."
+            "value": "Sorry, I couldn't find this perk. Please try again."
           }
         ]
       }
