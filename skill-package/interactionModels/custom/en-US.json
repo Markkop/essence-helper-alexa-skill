@@ -162,27 +162,44 @@
           "values": [
             {
               "name": {
-                "value": "Banshee's Bellow"
+                "value": "Banshee's Bellow",
+                "synonyms": [
+                  "Banshee",
+                  "Bellow"
+                ]
               }
             },
             {
               "name": {
-                "value": "Blood Thief"
+                "value": "Blood Thief",
+                "synonyms": [
+                  "Blood"
+                ]
               }
             },
             {
               "name": {
-                "value": "Body Meld"
+                "value": "Body Meld",
+                "synonyms": [
+                  "Body"
+                ]
               }
             },
             {
               "name": {
-                "value": "Brain Freeze"
+                "value": "Brain Freeze",
+                "synonyms": [
+                  "Brain",
+                  "Freeze"
+                ]
               }
             },
             {
               "name": {
-                "value": "Breath Stealer"
+                "value": "Breath Stealer",
+                "synonyms": [
+                  "Breath"
+                ]
               }
             },
             {
@@ -192,17 +209,29 @@
             },
             {
               "name": {
-                "value": "Chrono Skip"
+                "value": "Chrono Skip",
+                "synonyms": [
+                  "Chrono",
+                  "Skip"
+                ]
               }
             },
             {
               "name": {
-                "value": "Death's Chariot"
+                "value": "Death's Chariot",
+                "synonyms": [
+                  "Death",
+                  "Chariot"
+                ]
               }
             },
             {
               "name": {
-                "value": "Deep Breathing"
+                "value": "Deep Breathing",
+                "synonyms": [
+                  "Deep",
+                  "Breathing"
+                ]
               }
             },
             {
@@ -217,7 +246,10 @@
             },
             {
               "name": {
-                "value": "Fighting Spirit"
+                "value": "Fighting Spirit",
+                "synonyms": [
+                  "Fighting"
+                ]
               }
             },
             {
@@ -227,22 +259,46 @@
             },
             {
               "name": {
-                "value": "Flow State"
+                "value": "Flow State",
+                "synonyms": [
+                  "State"
+                ]
               }
             },
             {
               "name": {
-                "value": "Helping Hand"
+                "value": "Godking's Passion",
+                "synonyms": [
+                  "Godking",
+                  "Passion"
+                ]
               }
             },
             {
               "name": {
-                "value": "Inner Rage"
+                "value": "Helping Hand",
+                "synonyms": [
+                  "Helping",
+                  "Hand"
+                ]
               }
             },
             {
               "name": {
-                "value": "Killer's Edge"
+                "value": "Inner Rage",
+                "synonyms": [
+                  "Inner",
+                  "Rage"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Killer's Edge",
+                "synonyms": [
+                  "Killer",
+                  "Edge"
+                ]
               }
             },
             {
@@ -252,22 +308,36 @@
             },
             {
               "name": {
-                "value": "Marrow Stealer"
+                "value": "Marrow Stealer",
+                "synonyms": [
+                  "Marrow"
+                ]
               }
             },
             {
               "name": {
-                "value": "Mind Meld"
+                "value": "Mind Meld",
+                "synonyms": [
+                  "Mind"
+                ]
               }
             },
             {
               "name": {
-                "value": "Pain Link"
+                "value": "Pain Link",
+                "synonyms": [
+                  "Pain",
+                  "Link"
+                ]
               }
             },
             {
               "name": {
-                "value": "Pit Fighter"
+                "value": "Pit Fighter",
+                "synonyms": [
+                  "Pit",
+                  "Fighter"
+                ]
               }
             },
             {
@@ -282,7 +352,11 @@
             },
             {
               "name": {
-                "value": "Soul Shock"
+                "value": "Soul Shock",
+                "synonyms": [
+                  "Soul",
+                  "Shock"
+                ]
               }
             },
             {
@@ -292,17 +366,29 @@
             },
             {
               "name": {
-                "value": "Super  Heated"
+                "value": "Super Heated",
+                "synonyms": [
+                  "Super",
+                  "Heated"
+                ]
               }
             },
             {
               "name": {
-                "value": "Thick As Thieves"
+                "value": "Thick As Thieves",
+                "synonyms": [
+                  "Thick",
+                  "Thieves"
+                ]
               }
             },
             {
               "name": {
-                "value": "Well Rounded"
+                "value": "Well Rounded",
+                "synonyms": [
+                  "Well",
+                  "Rounded"
+                ]
               }
             },
             {
@@ -327,7 +413,7 @@
             },
             {
               "name": {
-                "value": "Braniac"
+                "value": "Brainiac"
               }
             },
             {
@@ -337,7 +423,11 @@
             },
             {
               "name": {
-                "value": "Eagle Eye"
+                "value": "Eagle Eye",
+                "synonyms": [
+                  "Eagle",
+                  "Eye"
+                ]
               }
             },
             {
@@ -403,6 +493,16 @@
             {
               "name": {
                 "value": "Bastion"
+              }
+            },
+            {
+              "name": {
+                "value": "Ferocious"
+              }
+            },
+            {
+              "name": {
+                "value": "Bolster"
               }
             }
           ],
@@ -568,35 +668,6 @@
             }
           ],
           "name": "LocationItems"
-        },
-        {
-          "values": [
-            {
-              "name": {
-                "value": "location",
-                "synonyms": [
-                  "locations",
-                  "source",
-                  "ingredient",
-                  "item",
-                  "food"
-                ]
-              }
-            },
-            {
-              "name": {
-                "value": "perk",
-                "synonyms": [
-                  "perks",
-                  "ability",
-                  "equipment perk",
-                  "equipment",
-                  "effect"
-                ]
-              }
-            }
-          ],
-          "name": "Intent"
         }
       ]
     },
@@ -690,5 +761,5 @@
       }
     ]
   },
-  "version": "31"
+  "version": "34"
 }
