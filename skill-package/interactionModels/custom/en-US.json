@@ -104,7 +104,7 @@
             "provide me the fact of {perk}",
             "provide me the effect of the {perk}",
             "provide me the fact of the {perk}",
-            "provide me the effect of {perk} perk"
+            "provide me the effect of {perk} perk",
             "provide me the fact of {perk} perk"
           ]
         },
