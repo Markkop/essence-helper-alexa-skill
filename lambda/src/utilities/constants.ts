@@ -18,6 +18,11 @@ export enum IntentTypes {
 
 export enum LocaleTypes {
   enUS = 'en-US',
+  enAU = 'en-AU',
+  enCA = 'en-CA',
+  enIN = 'en-IN',
+  enUK = 'en-UK',
+  enGB = 'en-GB',
 }
 
 export enum Strings {

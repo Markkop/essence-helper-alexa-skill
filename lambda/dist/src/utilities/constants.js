@@ -22,6 +22,11 @@ var IntentTypes;
 var LocaleTypes;
 (function (LocaleTypes) {
     LocaleTypes["enUS"] = "en-US";
+    LocaleTypes["enAU"] = "en-AU";
+    LocaleTypes["enCA"] = "en-CA";
+    LocaleTypes["enIN"] = "en-IN";
+    LocaleTypes["enUK"] = "en-UK";
+    LocaleTypes["enGB"] = "en-GB";
 })(LocaleTypes = exports.LocaleTypes || (exports.LocaleTypes = {}));
 var Strings;
 (function (Strings) {
